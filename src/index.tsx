@@ -9,7 +9,7 @@ import reducer from './reducer/AppReducer';
 import Header from './component/Header'
 import {initialState} from "./store/AppStore";
 
-const store = createStore(reducer, initialState as any);
+const store = createStore(reducer, initialState);
 
 ReactDOM.render((
     <Provider store={store}>
